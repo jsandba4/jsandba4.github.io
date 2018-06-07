@@ -1,0 +1,39 @@
+body{
+  background-color:grey;
+}
+h1{
+  color: white;
+    text-align: center;
+}
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: auto auto;
+  background-color: grey;
+  color: #444;
+}
+a{
+  color:white;
+}
+.box {
+  background-color: #00b0b3;
+  color: white;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 150%;
+  text-shadow: 2px 2px grey;
+}
+.a {
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+.b {
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+ul{
+  color: white;
+  list-style-position: inside;
+  text-align: center;
+}
